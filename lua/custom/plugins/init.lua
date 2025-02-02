@@ -19,15 +19,15 @@ return {
     opts = {
       options = {
         icons_enabled = true,
-        theme = 'auto',
+        theme = 'sonokai',
         component_separators = '',
         section_separators = '',
       },
       sections = {
         lualine_a = { 'mode' },
-        lualine_b = { 'branch', 'diff', 'diagnostics' },
+        lualine_b = { 'branch', 'diff' },
         lualine_c = {},
-        lualine_x = { 'lsp-progress', 'language-server', 'diagnostics' },
+        lualine_x = {},
         lualine_y = { 'filetype' },
         lualine_z = { 'location', 'progress' },
       },
