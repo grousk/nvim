@@ -72,6 +72,7 @@ vim.opt.scrolloff = 10
 
 -- Set 'tabsize' to 4 spaces
 vim.o.tabstop = 4
+vim.o.shiftwidth = 4
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
@@ -634,6 +635,7 @@ require('lazy').setup({
         lua = { 'stylua' },
         xml = { 'xmlformatter' },
         json = { 'fixjson' },
+        go = { 'gopls', 'goimports' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
